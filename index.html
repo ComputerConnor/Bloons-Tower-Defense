@@ -1,11 +1,10 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Running a Python script</title>
-        <?PHP
-        echo shell_exec("python main.py \"Parameter #1\" \"Parameter #2\"");
-        ?>
-        </head>
     <body>
-        <!-- BODY -->
+        <head>
+
+           <input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="exec('python main.py');">
+
+        </head>
     </body>
 </html>
